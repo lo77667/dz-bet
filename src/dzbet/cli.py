@@ -7,6 +7,7 @@ from .roi import backtest_roi
 from .steam import detect_steam_moves
 from .devils_advocate import checks
 from .gate import build_gate_report, write_report
+from .temporal import split_seasons
 
 def main() -> None:
     parser = argparse.ArgumentParser(prog="dzbet")
@@ -26,10 +27,12 @@ def main() -> None:
         return
     if not args.holdout_season:
         raise SystemExit("Refusing backtest without --holdout-season: the final season must be explicitly isolated.")
-    train = bundle.matches[bundle.matches.season != args.holdout_season]
-    test = bundle.matches[bundle.matches.season == args.holdout_season]
-    if train.empty or test.empty:
-        raise SystemExit("Both training data and the explicit hold-out season must be non-empty.")
+    try:
+        train, test, holdout = split_seasons(bundle.matches, args.holdout_season)
+    except ValueError as error:
+        raise SystemExit(str(error)) from error
+    if train.empty or test.empty or holdout.empty:
+        raise SystemExit("Train, test, and explicit hold-out season must all be non-empty.")
     path_a = backtest_roi(train, test, bundle.odds)
     moves = detect_steam_moves(bundle.odds, config.steam_threshold, config.steam_window_seconds)
     path_b = {"steam_moves": len(moves), "status": "descriptive_only_until_linked_to_delayed_prices"}
