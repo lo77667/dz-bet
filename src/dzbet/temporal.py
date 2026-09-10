@@ -2,7 +2,7 @@ from __future__ import annotations
 import re
 import pandas as pd
 
-SEASON_PATTERN = re.compile(r"^(\d{4})-(\d{4})$")
+SEASON_PATTERN = re.compile(r"^(\d{4})-(\d{2}|\d{4})$")
 
 
 def validate_season_boundaries(matches: pd.DataFrame) -> None:
@@ -14,10 +14,11 @@ def validate_season_boundaries(matches: pd.DataFrame) -> None:
         raise ValueError("matches: match_id appears more than once")
     for season, group in matches.groupby("season"):
         match = SEASON_PATTERN.match(str(season))
-        if not match or int(match.group(2)) != int(match.group(1)) + 1:
+        end_year = int(match.group(2)) if len(match.group(2)) == 4 else (2000 + int(match.group(2)))
+        if not match or end_year != int(match.group(1)) + 1:
             raise ValueError(f"invalid sporting season label: {season}")
         start = pd.Timestamp(f"{match.group(1)}-07-01", tz="UTC")
-        end = pd.Timestamp(f"{match.group(2)}-07-01", tz="UTC")
+        end = pd.Timestamp(f"{end_year}-07-01", tz="UTC")
         if (group.date < start).any() or (group.date >= end).any():
             raise ValueError(f"match date falls outside declared season {season}")
 
