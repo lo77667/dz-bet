@@ -38,4 +38,18 @@
 4. التقاطع يتفوق على كل مسار منفردًا، مع عدد رهانات وفواصل ثقة كافية.
 5. آخر موسم كامل ظل خارج كل قرارات الضبط.
 
-**الحالة: HOLD — المرحلة 0.2 منفذة، ولا انتقال إلى إدخال البيانات أو المرحلة 1 قبل مراجعة المنهجية وتثبيت تكاليف التنفيذ.**
+## Phase 0.3: IN PROGRESS
+
+Deliverables:
+- [x] Folder structure
+- [x] Download script
+- [ ] Cross-validation report — BLOCKED بسبب عدم توفر football-data.uk وclosing odds
+- [x] Data tests — مضافة، بانتظار تشغيل المصدر الحقيقي
+- [x] MANIFEST.json — موجود مع حالات المصدر وSHA256
+- [x] DATA_PROVENANCE.md — موثق مع المخاطر والتعارضات
+
+تم تنزيل ملفات OpenFootball الصحيحة للـChampionship من `en.2.json`. أما الملفات المطلوبة `en.1.json` فهي للدوري الإنجليزي الممتاز، لذلك لم تُستخدم كأنها Championship. فشلت محاولات football-data.uk وClub Elo بسبب مهلة TLS، ولم تُختلق بدائل أو بيانات xG.
+
+Next: استكمال المصادر المعتمدة ثم Cross-validation، وبعدها Backtest (Phase 0.4).
+
+Decision: HOLD until all deliverables pass review.

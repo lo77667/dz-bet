@@ -1,0 +1,2 @@
+2026-09-10T14:46:54Z
+Status: pending — football-data.co.uk TLS connection timed out; no CSV files accepted.
