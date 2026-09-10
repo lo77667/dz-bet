@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dz-bet"
+version = "0.1.0"
+description = "Dual-track validation gate for football prediction signals"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.0", "numpy>=1.24", "scipy>=1.10"]
+
+[project.scripts]
+dzbet = "dzbet.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
