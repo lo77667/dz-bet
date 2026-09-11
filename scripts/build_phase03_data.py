@@ -29,7 +29,7 @@ for season in SEASONS:
     for col,selection in odds_cols:
         if col in fd:
             o=fd[["match_id","date",col]].rename(columns={col:"odds"})
-            o["selection"]=selection; o["market"]="1X2"; o["bookmaker"]="football-data-average"; o["timestamp"]=o["date"]
+            o["selection"]=selection; o["market"]="1X2"; o["bookmaker"]="football-data-average"; o["timestamp"]=pd.NaT
             all_odds.append(o[["match_id","bookmaker","market","selection","odds","timestamp"]])
     of=json.loads((ROOT/"data/raw/openfootball"/f"{season}-championship.json").read_text())
     of_keys={match_id(season,pd.Timestamp(f"{m['date']} {m.get('time','00:00')}",tz="UTC"),m["team1"],m["team2"]) for m in of["matches"]}
@@ -41,7 +41,7 @@ matches.to_parquet(ROOT/"data/interim/matches.parquet",index=False); odds.to_par
 for split,seasons in {"train":SEASONS[:4],"test":SEASONS[4:6]}.items():
     matches[matches.season.isin(seasons)].to_parquet(ROOT/f"data/processed/{split}.parquet",index=False)
 manifest=json.loads((ROOT/"data/MANIFEST.json").read_text())
-manifest["derived"]={"matches_rows":len(matches),"odds_rows":len(odds),"closing_odds_definition":"AvgCH/AvgCD/AvgCA from football-data.co.uk; source row date used as conservative quote timestamp","processed":{"train_rows":int(sum(matches.season.isin(SEASONS[:4]))),"test_rows":int(sum(matches.season.isin(SEASONS[4:6]))),"holdout":"not created"}}
+manifest["derived"]={"matches_rows":len(matches),"odds_rows":len(odds),"closing_odds_definition":"AvgCH/AvgCD/AvgCA from football-data.co.uk; quote timestamp is unavailable in the source and is therefore kept as NaT","processed":{"train_rows":int(sum(matches.season.isin(SEASONS[:4]))),"test_rows":int(sum(matches.season.isin(SEASONS[4:6]))),"holdout":"not created"}}
 for season in SEASONS:
     p=ROOT/"data/raw/football-data-uk/E1"/f"{season}.csv"; manifest["sources"]["football-data-uk"][season]["sha256"]=hashlib.sha256(p.read_bytes()).hexdigest()
 (ROOT/"data/MANIFEST.json").write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+"\n")

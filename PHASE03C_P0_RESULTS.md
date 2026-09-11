@@ -11,7 +11,7 @@ content-type: text/csv
 content-length: 254740
 ```
 
-The file contains E1 results and closing-price columns. The full diagnostic is stored in `data/raw/football-data-uk/E1/curl_L.log`.
+The file contains E1 results and closing-price columns. It does not expose quote timestamps; the derived odds table preserves this as unknown rather than fabricating a pre-kickoff timestamp. The full diagnostic is stored in `data/raw/football-data-uk/E1/curl_L.log`.
 
 ## requests
 
@@ -54,4 +54,4 @@ Cache: PASS (results only; no odds)
 OpenFootball odds: ABSENT
 ```
 
-The project remains `HOLD` because cross-validation is below 99% for several seasons and xG remains unavailable for E1. No ROI or signal claim is made.
+The project remains `HOLD` because cross-validation is below 99% for several seasons, quote timestamps are unavailable for strict pre-kickoff validation, and xG remains unavailable for E1. No ROI or signal claim is made.

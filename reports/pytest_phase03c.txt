@@ -31,4 +31,4 @@ tests/test_phase0_integration.py::test_poisson_probabilities_sum_to_one PASSED [
 tests/test_phase0_integration.py::test_post_kickoff_quotes_are_excluded PASSED [ 95%]
 tests/test_phase0_integration.py::test_steam_move_ignores_negative_time_order PASSED [100%]
 
-============================== 22 passed in 3.01s ==============================
+============================== 22 passed in 3.34s ==============================

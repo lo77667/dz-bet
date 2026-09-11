@@ -2,7 +2,7 @@
 
 ## Primary-source status
 
-`football-data.co.uk` was downloaded successfully using `requests` with redirect following. Seven E1 files are present. OpenFootball contains no odds fields and is used only for result cross-checking.
+`football-data.co.uk` was downloaded successfully using `requests` with redirect following. Seven E1 files are present. OpenFootball contains no odds fields and is used only for result cross-checking. The primary CSV contains closing-price columns (`AvgCH`, `AvgCD`, `AvgCA`), but no quote timestamp; the derived odds table therefore keeps `timestamp = NaT` and cannot yet prove the strict `timestamp < kickoff` rule.
 
 ## Match comparison
 
@@ -25,7 +25,7 @@ The comparison uses season, date, normalized home team, and normalized away team
 | Competition identity | OpenFootball `en.1.json` = Premier League | Target E1 Championship | Rejected `en.1`; retained verified `en.2` only |
 | Encoding | football-data Latin-1 | OpenFootball UTF-8 | Read source encodings explicitly; normalize internal strings |
 | Team aliases | football-data abbreviations | OpenFootball full names | Alias map in `build_phase03_data.py`; unresolved names remain visible in counts |
-| Odds | football-data has closing columns | OpenFootball has no odds | Closing odds remain football-data-only |
+| Odds | football-data has closing columns but no quote timestamp | OpenFootball has no odds | Keep prices, keep timestamp unknown, and block strict pre-kickoff validation |
 
 ## Decision
 

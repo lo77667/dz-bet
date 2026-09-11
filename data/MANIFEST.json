@@ -168,7 +168,7 @@
     "footballcsv-cache": {
       "status": "downloaded_sample_no_odds",
       "url": "https://raw.githubusercontent.com/footballcsv/cache.footballdata/master/2019-20/eng.2.csv",
-      "downloaded_at": "2026-09-11T01:12:25.379466+00:00",
+      "downloaded_at": "2026-09-11T01:12:54.623241+00:00",
       "sha256": "8a6aeef1c12cef0fae66a0696f0e23512bee5f99e00b11537eefea8395d2c004",
       "bytes": 23568,
       "encoding": "UTF-8",
@@ -215,6 +215,7 @@
     "Club Elo was retried over HTTP and returned HTTP 502 Bad Gateway.",
     "P0: curl -L and requests succeeded for football-data; cache sample succeeded but is results-only; OpenFootball odds are absent.",
     "P0: curl -L and requests succeeded for football-data; cache sample succeeded but is results-only; OpenFootball odds are absent.",
+    "P0: curl -L and requests succeeded for football-data; cache sample succeeded but is results-only; OpenFootball odds are absent.",
     "P0: curl -L and requests succeeded for football-data; cache sample succeeded but is results-only; OpenFootball odds are absent."
   ],
   "source_metadata": {
@@ -230,7 +231,7 @@
     },
     "footballcsv-cache": {
       "url": "https://raw.githubusercontent.com/footballcsv/cache.footballdata/master/2019-20/eng.2.csv",
-      "downloaded_at": "2026-09-11T01:12:25.379466+00:00",
+      "downloaded_at": "2026-09-11T01:12:54.623241+00:00",
       "sha256": "8a6aeef1c12cef0fae66a0696f0e23512bee5f99e00b11537eefea8395d2c004",
       "license": "See repository terms",
       "encoding": "UTF-8",
@@ -267,7 +268,7 @@
   "derived": {
     "matches_rows": 3864,
     "odds_rows": 11592,
-    "closing_odds_definition": "AvgCH/AvgCD/AvgCA from football-data.co.uk; source row date used as conservative quote timestamp",
+    "closing_odds_definition": "AvgCH/AvgCD/AvgCA from football-data.co.uk; quote timestamp is unavailable in the source and is therefore kept as NaT",
     "processed": {
       "train_rows": 2208,
       "test_rows": 1104,
