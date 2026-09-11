@@ -1,0 +1,151 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host www.football-data.co.uk:443 was resolved.
+* IPv6: 2001:8d8:100f:f000::200
+* IPv4: 217.160.0.118
+*   Trying 217.160.0.118:443...
+* Connected to www.football-data.co.uk (217.160.0.118) port 443
+* ALPN: curl offers h2,http/1.1
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [19 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [6314 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [264 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [52 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [52 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / X25519 / RSASSA-PSS
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.football-data.co.uk
+*  start date: Sep  8 00:00:00 2026 GMT
+*  expire date: Dec  1 23:59:59 2026 GMT
+*  subjectAltName: host "www.football-data.co.uk" matched cert's "*.football-data.co.uk"
+*  issuer: C=GB; O=Sectigo Limited; CN=Sectigo Public Server Authentication CA DV R36
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type RSA (3072/128 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type RSA (4096/152 Bits/secBits), signed using sha384WithRSAEncryption
+} [5 bytes data]
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://www.football-data.co.uk/mmz4281/1920/E1.csv
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: www.football-data.co.uk]
+* [HTTP/2] [1] [:path: /mmz4281/1920/E1.csv]
+* [HTTP/2] [1] [user-agent: curl/8.5.0]
+* [HTTP/2] [1] [accept: */*]
+} [5 bytes data]
+> GET /mmz4281/1920/E1.csv HTTP/2
+> Host: www.football-data.co.uk
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [281 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [281 bytes data]
+* old SSL session ID is stale, removing
+{ [5 bytes data]
+< HTTP/2 302 
+< content-type: text/html
+< content-length: 0
+< location: https://football-data.co.uk/mmz4281/1920/E1.csv
+< x-ws-origin: available
+< x-ws-ratelimit-limit: 1000
+< x-ws-ratelimit-remaining: 999
+< date: Fri, 11 Sep 2026 01:06:30 GMT
+< server: Apache
+< cache-control: no-cache
+< 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+* Connection #0 to host www.football-data.co.uk left intact
+* Issue another request to this URL: 'https://football-data.co.uk/mmz4281/1920/E1.csv'
+* Host football-data.co.uk:443 was resolved.
+* IPv6: (none)
+* IPv4: 217.160.0.246
+*   Trying 217.160.0.246:443...
+* Connected to football-data.co.uk (217.160.0.246) port 443
+* ALPN: curl offers h2,http/1.1
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [19 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [6314 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [264 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [52 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [52 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / X25519 / RSASSA-PSS
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.football-data.co.uk
+*  start date: Sep  8 00:00:00 2026 GMT
+*  expire date: Dec  1 23:59:59 2026 GMT
+*  subjectAltName: host "football-data.co.uk" matched cert's "football-data.co.uk"
+*  issuer: C=GB; O=Sectigo Limited; CN=Sectigo Public Server Authentication CA DV R36
+*  SSL certificate verify ok.
+*   Certificate level 0: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type RSA (3072/128 Bits/secBits), signed using sha384WithRSAEncryption
+*   Certificate level 2: Public key type RSA (4096/152 Bits/secBits), signed using sha384WithRSAEncryption
+} [5 bytes data]
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://football-data.co.uk/mmz4281/1920/E1.csv
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: football-data.co.uk]
+* [HTTP/2] [1] [:path: /mmz4281/1920/E1.csv]
+* [HTTP/2] [1] [user-agent: curl/8.5.0]
+* [HTTP/2] [1] [accept: */*]
+} [5 bytes data]
+> GET /mmz4281/1920/E1.csv HTTP/2
+> Host: football-data.co.uk
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [265 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [265 bytes data]
+* old SSL session ID is stale, removing
+{ [5 bytes data]
+  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0< HTTP/2 200 
+< content-type: text/csv
+< content-length: 254740
+< x-ws-origin: available
+< x-ws-ratelimit-limit: 1000
+< x-ws-ratelimit-remaining: 999
+< date: Fri, 11 Sep 2026 01:06:32 GMT
+< server: Apache
+< last-modified: Thu, 23 Jul 2020 22:41:38 GMT
+< etag: "3e314-5ab238f3e2b9e"
+< accept-ranges: bytes
+< 
+{ [16166 bytes data]
+ 12  248k   12 32532    0     0   6606      0  0:00:38  0:00:04  0:00:34 10872100  248k  100  248k    0     0  45864      0  0:00:05  0:00:05 --:--:-- 70350
+* Connection #1 to host football-data.co.uk left intact

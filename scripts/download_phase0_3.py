@@ -8,7 +8,7 @@ from __future__ import annotations
 import hashlib, json, time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.request import Request, urlopen
+import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 SEASONS = ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
@@ -38,17 +38,17 @@ def fetch(url: str, destination: Path, minimum_bytes: int = 20, attempts: int = 
         return {"status": "cached", "url": url, "sha256": sha256(destination), "bytes": destination.stat().st_size}
     errors = []
     for attempt in range(1, attempts + 1):
-        request = Request(url, headers={"User-Agent": "dz-bet-phase0.3/1.0"})
         try:
-            with urlopen(request, timeout=60) as response:
-                payload = response.read()
+            response = requests.get(url, allow_redirects=True, timeout=60, headers={"User-Agent": "dz-bet-phase0.3/1.0"})
+            response.raise_for_status()
+            payload = response.content
             if len(payload) < minimum_bytes:
-                raise RuntimeError(f"response too small: {len(payload)} bytes")
+                raise RuntimeError(f"response too small: {len(payload)} bytes after {response.url}")
             temporary = destination.with_suffix(destination.suffix + ".part")
             temporary.write_bytes(payload)
             temporary.replace(destination)
             time.sleep(1.0)
-            return {"status": "downloaded", "url": url, "sha256": sha256(destination), "bytes": len(payload), "attempt": attempt}
+            return {"status": "downloaded", "url": url, "resolved_url": response.url, "sha256": sha256(destination), "bytes": len(payload), "attempt": attempt}
         except Exception as error:
             errors.append(f"attempt {attempt}: {error}")
             if attempt < attempts:

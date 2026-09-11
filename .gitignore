@@ -5,4 +5,5 @@ __pycache__/
 .env
 reports/*.json
 data/raw/*.csv
+data/raw/**/*.csv
 !data/raw/README.md

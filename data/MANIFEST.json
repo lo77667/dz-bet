@@ -14,39 +14,60 @@
   "sources": {
     "football-data-uk": {
       "2019-20": {
-        "status": "pending",
+        "status": "downloaded",
         "url": "https://www.football-data.co.uk/mmz4281/1920/E1.csv",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "resolved_url": "https://football-data.co.uk/mmz4281/1920/E1.csv",
+        "sha256": "f31450c623c0b74b89692584a85924cc652d33ec89757acf4b2dda5e26261d57",
+        "bytes": 254740,
+        "attempt": 1
       },
       "2020-21": {
-        "status": "pending",
+        "status": "downloaded",
         "url": "https://www.football-data.co.uk/mmz4281/2021/E1.csv",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "resolved_url": "https://football-data.co.uk/mmz4281/2021/E1.csv",
+        "sha256": "cf93295e310c60e5b97ae7466d772f8ec6a908ad401e38fceb7e8617369d5073",
+        "bytes": 255966,
+        "attempt": 1
       },
       "2021-22": {
-        "status": "pending",
+        "status": "downloaded",
         "url": "https://www.football-data.co.uk/mmz4281/2122/E1.csv",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "resolved_url": "https://football-data.co.uk/mmz4281/2122/E1.csv",
+        "sha256": "a181451be4801b9f838daf5f6aaf21e9f09d36042be9e6c15388e71001e772ea",
+        "bytes": 255881,
+        "attempt": 1
       },
       "2022-23": {
-        "status": "pending",
+        "status": "downloaded",
         "url": "https://www.football-data.co.uk/mmz4281/2223/E1.csv",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "resolved_url": "https://football-data.co.uk/mmz4281/2223/E1.csv",
+        "sha256": "cd38ab0586ea8cb4d573c363ff70749117f116da5b2741e5b0ea37da05860b1b",
+        "bytes": 255779,
+        "attempt": 1
       },
       "2023-24": {
-        "status": "pending",
+        "status": "downloaded",
         "url": "https://www.football-data.co.uk/mmz4281/2324/E1.csv",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "resolved_url": "https://football-data.co.uk/mmz4281/2324/E1.csv",
+        "sha256": "5737f6cc95c95092b28317f41d3123e2fb09345434efc1c84bbdf15830849ab3",
+        "bytes": 251182,
+        "attempt": 1
       },
       "2024-25": {
-        "status": "pending",
+        "status": "downloaded",
         "url": "https://www.football-data.co.uk/mmz4281/2425/E1.csv",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "resolved_url": "https://football-data.co.uk/mmz4281/2425/E1.csv",
+        "sha256": "f34c340446c916374be66bdc2fb25b87ee7f2662712ca009653d03ac705535f9",
+        "bytes": 286983,
+        "attempt": 1
       },
       "2025-26": {
-        "status": "pending",
+        "status": "downloaded",
         "url": "https://www.football-data.co.uk/mmz4281/2526/E1.csv",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "resolved_url": "https://football-data.co.uk/mmz4281/2526/E1.csv",
+        "sha256": "98954c319950f19158624b17a154ef1c56eb7b8d169ef317f28f06d11d0b9a74",
+        "bytes": 294390,
+        "attempt": 1
       }
     },
     "openfootball": {
@@ -109,48 +130,61 @@
     },
     "clubelo": {
       "2019-20": {
-        "status": "pending",
+        "status": "blocked_http_502",
         "url": "http://api.clubelo.com/2020-06-30",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "error": "curl HTTP/1.1 502 Bad Gateway"
       },
       "2020-21": {
-        "status": "pending",
+        "status": "blocked_http_502",
         "url": "http://api.clubelo.com/2021-06-30",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "error": "curl HTTP/1.1 502 Bad Gateway"
       },
       "2021-22": {
-        "status": "pending",
+        "status": "blocked_http_502",
         "url": "http://api.clubelo.com/2022-06-30",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "error": "curl HTTP/1.1 502 Bad Gateway"
       },
       "2022-23": {
-        "status": "pending",
+        "status": "blocked_http_502",
         "url": "http://api.clubelo.com/2023-06-30",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "error": "curl HTTP/1.1 502 Bad Gateway"
       },
       "2023-24": {
-        "status": "pending",
+        "status": "blocked_http_502",
         "url": "http://api.clubelo.com/2024-06-30",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "error": "curl HTTP/1.1 502 Bad Gateway"
       },
       "2024-25": {
-        "status": "pending",
+        "status": "blocked_http_502",
         "url": "http://api.clubelo.com/2025-06-30",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "error": "curl HTTP/1.1 502 Bad Gateway"
       },
       "2025-26": {
-        "status": "pending",
+        "status": "blocked_http_502",
         "url": "http://api.clubelo.com/2026-06-30",
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+        "error": "curl HTTP/1.1 502 Bad Gateway"
       }
     },
     "footballcsv-cache": {
-      "status": "pending",
-      "note": "approved source; no automatic endpoint assumed"
+      "status": "downloaded_sample_no_odds",
+      "url": "https://raw.githubusercontent.com/footballcsv/cache.footballdata/master/2019-20/eng.2.csv",
+      "downloaded_at": "2026-09-11T01:12:25.379466+00:00",
+      "sha256": "8a6aeef1c12cef0fae66a0696f0e23512bee5f99e00b11537eefea8395d2c004",
+      "bytes": 23568,
+      "encoding": "UTF-8",
+      "fields": [
+        "Date",
+        "Team 1",
+        "FT",
+        "HT",
+        "Team 2"
+      ],
+      "odds_present": false
     },
     "understat": {
-      "status": "pending",
-      "note": "requires soccerdata extraction; no fabricated xG files"
+      "status": "blocked",
+      "url": "https://understat.com",
+      "error": "soccerdata ValueError: Invalid league 'ENG-Championship'"
     }
   },
   "splits": {
@@ -178,34 +212,37 @@
     "The source identity check found seven seasons with Championship metadata and 24 unique teams.",
     "football-data curl diagnostic shows HTTP redirect to https://football-data.co.uk followed by a connection stall in this environment.",
     "Understat was attempted via soccerdata and rejected ENG-Championship as unsupported; no xG was fabricated.",
-    "Club Elo was retried over HTTP and returned HTTP 502 Bad Gateway."
+    "Club Elo was retried over HTTP and returned HTTP 502 Bad Gateway.",
+    "P0: curl -L and requests succeeded for football-data; cache sample succeeded but is results-only; OpenFootball odds are absent.",
+    "P0: curl -L and requests succeeded for football-data; cache sample succeeded but is results-only; OpenFootball odds are absent.",
+    "P0: curl -L and requests succeeded for football-data; cache sample succeeded but is results-only; OpenFootball odds are absent."
   ],
   "source_metadata": {
     "football-data-uk": {
       "url": "https://www.football-data.co.uk/data.php",
-      "downloaded_at": null,
+      "downloaded_at": "2026-09-11T01:08:47.370769+00:00",
       "sha256": null,
       "license": "See source terms; not redistributed here",
       "encoding": "latin-1",
-      "status": "blocked_tls_or_redirect_timeout",
-      "diagnostic": "data/raw/football-data-uk/E1/curl_diagnostic.txt",
+      "status": "downloaded_via_requests",
+      "diagnostic": "data/raw/football-data-uk/E1/curl_L.log",
       "correct_url_pattern": "https://www.football-data.co.uk/mmz4281/{YYYY}/E1.csv"
     },
     "footballcsv-cache": {
-      "url": "https://github.com/footballcsv",
-      "downloaded_at": null,
-      "sha256": null,
+      "url": "https://raw.githubusercontent.com/footballcsv/cache.footballdata/master/2019-20/eng.2.csv",
+      "downloaded_at": "2026-09-11T01:12:25.379466+00:00",
+      "sha256": "8a6aeef1c12cef0fae66a0696f0e23512bee5f99e00b11537eefea8395d2c004",
       "license": "See repository terms",
       "encoding": "UTF-8",
-      "status": "not_used"
+      "status": "downloaded_sample_no_odds"
     },
     "openfootball": {
       "url": "https://github.com/openfootball/football.json",
       "downloaded_at": "2026-09-10T14:46:54.011399+00:00",
-      "sha256": "per-season hashes in sources.openfootball_championship_corrected",
+      "sha256": "per-season hashes in sources.openfootball",
       "license": "See repository terms",
       "encoding": "UTF-8",
-      "status": "downloaded_corrected_path"
+      "status": "downloaded_en2_championship"
     },
     "understat": {
       "url": "https://understat.com",
@@ -225,6 +262,16 @@
       "encoding": "UTF-8",
       "status": "blocked_http_502",
       "error": "curl HTTP/1.1 502 Bad Gateway"
+    }
+  },
+  "derived": {
+    "matches_rows": 3864,
+    "odds_rows": 11592,
+    "closing_odds_definition": "AvgCH/AvgCD/AvgCA from football-data.co.uk; source row date used as conservative quote timestamp",
+    "processed": {
+      "train_rows": 2208,
+      "test_rows": 1104,
+      "holdout": "not created"
     }
   }
 }

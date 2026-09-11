@@ -8,15 +8,15 @@ The target is EFL Championship (`E1`) for seasons 2019-20, 2020-21, 2021-22, 202
 
 | Source | Role | Status |
 |---|---|---|
-| football-data.co.uk | Primary results and odds | **Blocked in this run:** TLS connection timeout; no substitute used |
-| footballcsv/cache.footballdata | Approved cache | Not used; no endpoint assumed |
+| football-data.co.uk | Primary results and odds | **Downloaded successfully via requests** for all seven E1 seasons; Latin-1 |
+| footballcsv/cache.footballdata | Approved cache | Sample downloaded from `2019-20/eng.2.csv`; results-only, no odds |
 | OpenFootball/football.json | Cross-check | Downloaded from `en.2.json`; verified metadata and 24 teams per season |
 | Understat via soccerdata | xG | Attempted; `ENG-Championship` is rejected as unsupported by soccerdata/Understat |
 | Club Elo | Baseline | Attempted over HTTP; returned HTTP 502 Bad Gateway |
 
 ## Reproducibility
 
-The downloader is `scripts/download_phase0_3.py`. It is idempotent, uses only approved URLs, records SHA256, preserves `.part` files until a complete response, and writes `data/MANIFEST.json`. Re-running it does not redownload files already present and non-empty. The corrected OpenFootball Championship files and hashes are recorded in `MANIFEST.json`.
+The downloader is `scripts/download_phase0_3.py`; the requests-based E1 execution is captured in `scripts/download_fd_requests.py`. Both use approved URLs, record SHA256, preserve `.part` files until a complete response, and update `data/MANIFEST.json`. Re-running does not redownload files already present and non-empty. The corrected OpenFootball Championship files and all seven primary E1 hashes are recorded in `MANIFEST.json`.
 
 ## Licensing and limitations
 
@@ -24,8 +24,8 @@ Each source's licensing and usage terms must be verified from its own project pa
 
 ## Known issues
 
-The football-data diagnostic shows an HTTP redirect to `https://football-data.co.uk/mmz4281/1920/E1.csv`, followed by a connection stall in this environment. The requested OpenFootball path was semantically wrong for Championship. The Understat probe returned `ValueError: Invalid league 'ENG-Championship'`; valid soccerdata leagues listed only the five major leagues. The Club Elo HTTP probe returned `502 Bad Gateway`. Team aliases, encoding, missing values, and closing-odds completeness cannot be resolved until the primary tables are available.
+The initial urllib/curl path stalled after a redirect, but `curl -L` and Python `requests` both succeeded. The requested OpenFootball path was semantically wrong for Championship. The Understat probe returned `ValueError: Invalid league 'ENG-Championship'`; valid soccerdata leagues listed only the five major leagues. The Club Elo HTTP probe returned `502 Bad Gateway`. Cross-source matching remains below 99% in several seasons and requires alias/date discrepancy review.
 
 ## Remaining risks
 
-At present, primary results, closing odds, xG, and Club Elo baselines are incomplete. Therefore match-level cross-validation, >=90% xG coverage, ROI, and signal claims are prohibited. The parquet files under `data/interim` and `data/processed` are schema-only placeholders; the hold-out file is intentionally absent and must remain absent until real data is authorized.
+Primary results and football-data closing columns are now present. xG and Club Elo remain unavailable. Cross-validation is below 99% for several seasons, so ROI and signal claims remain prohibited. `data/interim/matches.parquet`, `data/interim/odds.parquet`, and processed Train/Test files contain derived data; the hold-out file is intentionally absent and must remain absent until final data authorization.
