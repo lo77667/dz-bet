@@ -32,4 +32,11 @@ The record count is only a structural check. It is not cross-validation because 
 
 ## Conflicts
 
-The requested `en.1.json` filename conflicts with the requested Championship competition. The source's `en.1.json` files identify themselves as English Premier League. This was not silently accepted. The corrected `en.2.json` files are retained, and the mismatch is recorded in the manifest and provenance.
+| نوع التعارض | المصدر 1 | المصدر 2 | الحل |
+|---|---|---|---|
+| هوية المسابقة | OpenFootball `en.1.json` = Premier League | المطلوب EFL Championship | نقل `en.1.json` إلى `_rejected/` واستخدام `en.2.json` فقط |
+| الترميز | football-data المتوقع Latin-1 | OpenFootball UTF-8 | سيُحوّل كل مصدر إلى UTF-8 عند الدمج، مع حفظ الأصل وhash |
+| أسماء الفرق | اختصارات مثل QPR وSheff Utd | أسماء كاملة في OpenFootball | تطبيع aliases ثم مراجعة يدوية قبل المطابقة |
+| نتائج/أودز | football-data.uk غير متاح | OpenFootball متاح | لا تتم المطابقة ولا تُعلن نسبة حتى يعود المصدر الأساسي |
+
+تم التحقق بنيويًا من أن ملفات `en.2.json` تحمل اسم Championship وتحتوي 24 فريقًا لكل موسم. هذا لا يساوي cross-validation مع football-data.uk.

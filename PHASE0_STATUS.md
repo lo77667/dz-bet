@@ -50,6 +50,8 @@ Deliverables:
 
 تم تنزيل ملفات OpenFootball الصحيحة للـChampionship من `en.2.json`. أما الملفات المطلوبة `en.1.json` فهي للدوري الإنجليزي الممتاز، لذلك لم تُستخدم كأنها Championship. فشلت محاولات football-data.uk وClub Elo بسبب مهلة TLS، ولم تُختلق بدائل أو بيانات xG.
 
+في تحديث 0.3.b تم تصحيح FD codes إلى `1920`…`2526`، وإضافة ثلاث محاولات مع backoff وtimeout 60 ثانية، وتشغيل تشخيص curl، ومحاولة Understat فعليًا عبر soccerdata، وتجربة Club Elo عبر HTTP. تم نقل ملفات Premier League إلى `data/raw/openfootball/_rejected/`، والتحقق من اسم Championship ووجود 24 فريقًا في المواسم السبعة. أزيل ملف hold-out schema-only، وأصبح الاختبار يحمي غيابه حتى وصول البيانات الحقيقية.
+
 Next: استكمال المصادر المعتمدة ثم Cross-validation، وبعدها Backtest (Phase 0.4).
 
 Decision: HOLD until all deliverables pass review.

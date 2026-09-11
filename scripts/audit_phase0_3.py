@@ -17,11 +17,12 @@ for season in SEASONS:
     path=ROOT/"data/raw/openfootball"/f"{season}-championship.json"
     counts.append((season, len(games(path)) if path.exists() else 0, sha(path) if path.exists() else None))
 manifest=json.loads((ROOT/"data/MANIFEST.json").read_text())
-manifest["sources"]["openfootball_championship_corrected"]={s:{"status":"downloaded","url":f"https://raw.githubusercontent.com/openfootball/football.json/master/{s}/en.2.json","sha256":h,"bytes":(ROOT/"data/raw/openfootball"/f"{s}-championship.json").stat().st_size} for s,_,h in counts}
+manifest["sources"].pop("openfootball_championship_corrected", None)
+manifest["sources"]["openfootball"]={s:{"status":"downloaded","url":f"https://raw.githubusercontent.com/openfootball/football.json/master/{s}/en.2.json","sha256":h,"bytes":(ROOT/"data/raw/openfootball"/f"{s}-championship.json").stat().st_size} for s,_,h in counts}
 manifest["source_metadata"]={
     "football-data-uk":{"url":"https://www.football-data.co.uk/data.php","downloaded_at":None,"sha256":None,"license":"See source terms; not redistributed here","encoding":"latin-1","status":"blocked"},
     "footballcsv-cache":{"url":"https://github.com/footballcsv","downloaded_at":None,"sha256":None,"license":"See repository terms","encoding":"UTF-8","status":"not_used"},
-    "openfootball":{"url":"https://github.com/openfootball/football.json","downloaded_at":manifest["generated_at"],"sha256":"per-season hashes in sources.openfootball_championship_corrected","license":"See repository terms","encoding":"UTF-8","status":"downloaded_corrected_path"},
+    "openfootball":{"url":"https://github.com/openfootball/football.json","downloaded_at":manifest["generated_at"],"sha256":"per-season hashes in sources.openfootball","license":"See repository terms","encoding":"UTF-8","status":"downloaded_en2_championship"},
     "understat":{"url":"https://understat.com","downloaded_at":None,"sha256":None,"license":"See source terms","encoding":"UTF-8","status":"blocked_no_championship_coverage"},
     "clubelo":{"url":"https://clubelo.com","downloaded_at":None,"sha256":None,"license":"See source terms","encoding":"UTF-8","status":"blocked"},
 }

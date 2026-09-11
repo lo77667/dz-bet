@@ -10,9 +10,9 @@ The target is EFL Championship (`E1`) for seasons 2019-20, 2020-21, 2021-22, 202
 |---|---|---|
 | football-data.co.uk | Primary results and odds | **Blocked in this run:** TLS connection timeout; no substitute used |
 | footballcsv/cache.footballdata | Approved cache | Not used; no endpoint assumed |
-| OpenFootball/football.json | Cross-check | Downloaded; requested `en.1.json` is Premier League, corrected Championship path is `en.2.json` |
-| Understat via soccerdata | xG | Not established for Championship; no fabricated xG |
-| Club Elo | Baseline | Blocked by TLS connection timeout; no substitute used |
+| OpenFootball/football.json | Cross-check | Downloaded from `en.2.json`; verified metadata and 24 teams per season |
+| Understat via soccerdata | xG | Attempted; `ENG-Championship` is rejected as unsupported by soccerdata/Understat |
+| Club Elo | Baseline | Attempted over HTTP; returned HTTP 502 Bad Gateway |
 
 ## Reproducibility
 
@@ -24,8 +24,8 @@ Each source's licensing and usage terms must be verified from its own project pa
 
 ## Known issues
 
-The primary site experienced TLS connection timeouts. The requested OpenFootball path was semantically wrong for Championship. Understat coverage for Championship is unverified. Team aliases, encoding, missing values, and closing-odds completeness cannot be resolved until the primary tables are available.
+The football-data diagnostic shows an HTTP redirect to `https://football-data.co.uk/mmz4281/1920/E1.csv`, followed by a connection stall in this environment. The requested OpenFootball path was semantically wrong for Championship. The Understat probe returned `ValueError: Invalid league 'ENG-Championship'`; valid soccerdata leagues listed only the five major leagues. The Club Elo HTTP probe returned `502 Bad Gateway`. Team aliases, encoding, missing values, and closing-odds completeness cannot be resolved until the primary tables are available.
 
 ## Remaining risks
 
-At present, primary results, closing odds, xG, and Club Elo baselines are incomplete. Therefore match-level cross-validation, >=90% xG coverage, ROI, and signal claims are prohibited. The empty parquet files under `data/interim` and `data/processed` are schema-only placeholders and must not be used as analytical data.
+At present, primary results, closing odds, xG, and Club Elo baselines are incomplete. Therefore match-level cross-validation, >=90% xG coverage, ROI, and signal claims are prohibited. The parquet files under `data/interim` and `data/processed` are schema-only placeholders; the hold-out file is intentionally absent and must remain absent until real data is authorized.

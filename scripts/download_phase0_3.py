@@ -12,11 +12,11 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 SEASONS = ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
-FD_CODES = {s: s[:2] + s[-2:] for s in SEASONS}
+FD_CODES = {s: s[2:4] + s[-2:] for s in SEASONS}
 SOURCES = {
     "football-data-uk": "https://www.football-data.co.uk/mmz4281/{code}/E1.csv",
-    "openfootball": "https://raw.githubusercontent.com/openfootball/football.json/master/{season}/en.1.json",
-    "clubelo": "https://api.clubelo.com/{endyear}-06-30",
+    "openfootball": "https://raw.githubusercontent.com/openfootball/football.json/master/{season}/en.2.json",
+    "clubelo": "http://api.clubelo.com/{endyear}-06-30",
 }
 
 
@@ -32,23 +32,28 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def fetch(url: str, destination: Path, minimum_bytes: int = 20) -> dict:
+def fetch(url: str, destination: Path, minimum_bytes: int = 20, attempts: int = 3) -> dict:
     destination.parent.mkdir(parents=True, exist_ok=True)
     if destination.exists() and destination.stat().st_size >= minimum_bytes:
         return {"status": "cached", "url": url, "sha256": sha256(destination), "bytes": destination.stat().st_size}
-    request = Request(url, headers={"User-Agent": "dz-bet-phase0.3/1.0"})
-    try:
-        with urlopen(request, timeout=30) as response:
-            payload = response.read()
-        if len(payload) < minimum_bytes:
-            raise RuntimeError(f"response too small: {len(payload)} bytes")
-        temporary = destination.with_suffix(destination.suffix + ".part")
-        temporary.write_bytes(payload)
-        temporary.replace(destination)
-        time.sleep(1.0)
-        return {"status": "downloaded", "url": url, "sha256": sha256(destination), "bytes": len(payload)}
-    except Exception as error:  # recorded, never silently replaced by fake data
-        return {"status": "pending", "url": url, "error": str(error)}
+    errors = []
+    for attempt in range(1, attempts + 1):
+        request = Request(url, headers={"User-Agent": "dz-bet-phase0.3/1.0"})
+        try:
+            with urlopen(request, timeout=60) as response:
+                payload = response.read()
+            if len(payload) < minimum_bytes:
+                raise RuntimeError(f"response too small: {len(payload)} bytes")
+            temporary = destination.with_suffix(destination.suffix + ".part")
+            temporary.write_bytes(payload)
+            temporary.replace(destination)
+            time.sleep(1.0)
+            return {"status": "downloaded", "url": url, "sha256": sha256(destination), "bytes": len(payload), "attempt": attempt}
+        except Exception as error:
+            errors.append(f"attempt {attempt}: {error}")
+            if attempt < attempts:
+                time.sleep(2 ** (attempt - 1))
+    return {"status": "pending", "url": url, "error": "; ".join(errors), "attempts": attempts}
 
 
 def main() -> int:
@@ -59,7 +64,7 @@ def main() -> int:
     for season in SEASONS:
         code = FD_CODES[season]
         manifest["sources"].setdefault("football-data-uk", {})[season] = fetch(SOURCES["football-data-uk"].format(code=code), raw / "football-data-uk" / "E1" / f"{season}.csv")
-        manifest["sources"].setdefault("openfootball", {})[season] = fetch(SOURCES["openfootball"].format(season=season), raw / "openfootball" / f"{season}.json")
+        manifest["sources"].setdefault("openfootball", {})[season] = fetch(SOURCES["openfootball"].format(season=season), raw / "openfootball" / f"{season}-championship.json")
         endyear = int(season[:4]) + 1
         manifest["sources"].setdefault("clubelo", {})[season] = fetch(SOURCES["clubelo"].format(endyear=endyear), raw / "clubelo" / "E1" / f"{season}.csv")
     manifest["sources"]["footballcsv-cache"] = {"status": "pending", "note": "approved source; no automatic endpoint assumed"}

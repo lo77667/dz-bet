@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-09-10T15:08:56.623521+00:00",
+  "source": "Understat via soccerdata",
+  "league": "ENG-Championship",
+  "status": "blocked",
+  "error": "ValueError: \n                        Invalid league 'ENG-Championship'. Valid leagues are:\n                        ['ENG-Premier League',\n 'ESP-La Liga',\n 'FRA-Ligue 1',\n 'GER-Bundesliga',\n 'ITA-Serie A']\n                        "
+}

@@ -15,7 +15,7 @@
     "football-data-uk": {
       "2019-20": {
         "status": "pending",
-        "url": "https://www.football-data.co.uk/mmz4281/2020/E1.csv",
+        "url": "https://www.football-data.co.uk/mmz4281/1920/E1.csv",
         "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
       },
       "2020-21": {
@@ -25,72 +25,86 @@
       },
       "2021-22": {
         "status": "pending",
-        "url": "https://www.football-data.co.uk/mmz4281/2022/E1.csv",
+        "url": "https://www.football-data.co.uk/mmz4281/2122/E1.csv",
         "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
       },
       "2022-23": {
         "status": "pending",
-        "url": "https://www.football-data.co.uk/mmz4281/2023/E1.csv",
+        "url": "https://www.football-data.co.uk/mmz4281/2223/E1.csv",
         "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
       },
       "2023-24": {
         "status": "pending",
-        "url": "https://www.football-data.co.uk/mmz4281/2024/E1.csv",
+        "url": "https://www.football-data.co.uk/mmz4281/2324/E1.csv",
         "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
       },
       "2024-25": {
         "status": "pending",
-        "url": "https://www.football-data.co.uk/mmz4281/2025/E1.csv",
+        "url": "https://www.football-data.co.uk/mmz4281/2425/E1.csv",
         "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
       },
       "2025-26": {
         "status": "pending",
-        "url": "https://www.football-data.co.uk/mmz4281/2026/E1.csv",
+        "url": "https://www.football-data.co.uk/mmz4281/2526/E1.csv",
         "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
       }
     },
     "openfootball": {
       "2019-20": {
         "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2019-20/en.1.json",
-        "sha256": "9e1695f85ce5553f762e809dea357ec0a95838939be89569060a83c4e98a302d",
-        "bytes": 114817
+        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2019-20/en.2.json",
+        "downloaded_at": "2026-09-10T14:46:54.011399+00:00",
+        "sha256": "9f492b1689a636edce9012794540ff74e8ce26a22aa0a94e36a5b2499ce71852",
+        "bytes": 166205,
+        "encoding": "UTF-8"
       },
       "2020-21": {
         "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2020-21/en.1.json",
-        "sha256": "21ddf26b48469da530c51ccc4857bf1a534bda3aed08766b55185efb142e9a20",
-        "bytes": 115947
+        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2020-21/en.2.json",
+        "downloaded_at": "2026-09-10T14:46:54.011399+00:00",
+        "sha256": "2983c041734c8c67ba9a5e9051bae8b6722ec7a3c8bba18a10fc3d74d386a577",
+        "bytes": 167559,
+        "encoding": "UTF-8"
       },
       "2021-22": {
         "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2021-22/en.1.json",
-        "sha256": "fbdfd426fa18fa2f8630b77de87c082734da495ac4668d6d72f29f76b73b9564",
-        "bytes": 115863
+        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2021-22/en.2.json",
+        "downloaded_at": "2026-09-10T14:46:54.011399+00:00",
+        "sha256": "3c62d852dcc78649744d06902b2681cfea20cb93d79ea00958f47f566bbaf3b9",
+        "bytes": 184635,
+        "encoding": "UTF-8"
       },
       "2022-23": {
         "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2022-23/en.1.json",
-        "sha256": "8d09f0f9846981626cdfec48903e1f21e7c79aabe6f92535c9e092e8e79b808b",
-        "bytes": 116149
+        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2022-23/en.2.json",
+        "downloaded_at": "2026-09-10T14:46:54.011399+00:00",
+        "sha256": "baa3c014bd0789b086a0bdfe69e3f20bf7d9ce57adbb32336f1a8eb6a63231d8",
+        "bytes": 183993,
+        "encoding": "UTF-8"
       },
       "2023-24": {
         "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2023-24/en.1.json",
-        "sha256": "03e13eafbf78dfe00d7e89dd3bf6643986eb6e8fd86c7664aeb8c5bc0bed88d0",
-        "bytes": 116669
+        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2023-24/en.2.json",
+        "downloaded_at": "2026-09-10T14:46:54.011399+00:00",
+        "sha256": "630878e082701dc51e36dc48dfe07250c09bdd0a319bef299a278e9d651c55f6",
+        "bytes": 185625,
+        "encoding": "UTF-8"
       },
       "2024-25": {
         "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/en.1.json",
-        "sha256": "c3d18f552d83382cd4b6b21127adbbfe38e7f8618ddc979fb5404f2df07d0a75",
-        "bytes": 110141
+        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/en.2.json",
+        "downloaded_at": "2026-09-10T14:46:54.011399+00:00",
+        "sha256": "65b13a9e769ac2ed78a3c3f628cb5d76e196d514d4eeb7e0f743a8dd332d8e4f",
+        "bytes": 165132,
+        "encoding": "UTF-8"
       },
       "2025-26": {
         "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.1.json",
-        "sha256": "d6070bdf731546ccf97767f062e8af4bd26dd309dee69f6092025bf9c78f43c1",
-        "bytes": 108493
+        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.2.json",
+        "downloaded_at": "2026-09-10T14:46:54.011399+00:00",
+        "sha256": "492a2fad47b787d694a33f06c6a9828fcb91f6351e2466385550c9a2d98a44ae",
+        "bytes": 159839,
+        "encoding": "UTF-8"
       }
     },
     "clubelo": {
@@ -137,50 +151,6 @@
     "understat": {
       "status": "pending",
       "note": "requires soccerdata extraction; no fabricated xG files"
-    },
-    "openfootball_championship_corrected": {
-      "2019-20": {
-        "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2019-20/en.2.json",
-        "sha256": "9f492b1689a636edce9012794540ff74e8ce26a22aa0a94e36a5b2499ce71852",
-        "bytes": 166205
-      },
-      "2020-21": {
-        "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2020-21/en.2.json",
-        "sha256": "2983c041734c8c67ba9a5e9051bae8b6722ec7a3c8bba18a10fc3d74d386a577",
-        "bytes": 167559
-      },
-      "2021-22": {
-        "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2021-22/en.2.json",
-        "sha256": "3c62d852dcc78649744d06902b2681cfea20cb93d79ea00958f47f566bbaf3b9",
-        "bytes": 184635
-      },
-      "2022-23": {
-        "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2022-23/en.2.json",
-        "sha256": "baa3c014bd0789b086a0bdfe69e3f20bf7d9ce57adbb32336f1a8eb6a63231d8",
-        "bytes": 183993
-      },
-      "2023-24": {
-        "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2023-24/en.2.json",
-        "sha256": "630878e082701dc51e36dc48dfe07250c09bdd0a319bef299a278e9d651c55f6",
-        "bytes": 185625
-      },
-      "2024-25": {
-        "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/en.2.json",
-        "sha256": "65b13a9e769ac2ed78a3c3f628cb5d76e196d514d4eeb7e0f743a8dd332d8e4f",
-        "bytes": 165132
-      },
-      "2025-26": {
-        "status": "downloaded",
-        "url": "https://raw.githubusercontent.com/openfootball/football.json/master/2025-26/en.2.json",
-        "sha256": "492a2fad47b787d694a33f06c6a9828fcb91f6351e2466385550c9a2d98a44ae",
-        "bytes": 159839
-      }
     }
   },
   "splits": {
@@ -204,9 +174,11 @@
     "raw_data_only": true
   },
   "notes": [
-    "The requested en.1.json path is English Premier League, not Championship. Championship files are en.2.json and are recorded separately.",
-    "football-data and Club Elo downloads were blocked by TLS timeouts in this run.",
-    "Understat coverage for Championship is not established; xG is not fabricated."
+    "OpenFootball en.1.json was rejected because it is English Premier League; only verified en.2.json Championship files remain in sources.openfootball.",
+    "The source identity check found seven seasons with Championship metadata and 24 unique teams.",
+    "football-data curl diagnostic shows HTTP redirect to https://football-data.co.uk followed by a connection stall in this environment.",
+    "Understat was attempted via soccerdata and rejected ENG-Championship as unsupported; no xG was fabricated.",
+    "Club Elo was retried over HTTP and returned HTTP 502 Bad Gateway."
   ],
   "source_metadata": {
     "football-data-uk": {
@@ -215,7 +187,9 @@
       "sha256": null,
       "license": "See source terms; not redistributed here",
       "encoding": "latin-1",
-      "status": "blocked"
+      "status": "blocked_tls_or_redirect_timeout",
+      "diagnostic": "data/raw/football-data-uk/E1/curl_diagnostic.txt",
+      "correct_url_pattern": "https://www.football-data.co.uk/mmz4281/{YYYY}/E1.csv"
     },
     "footballcsv-cache": {
       "url": "https://github.com/footballcsv",
@@ -239,15 +213,18 @@
       "sha256": null,
       "license": "See source terms",
       "encoding": "UTF-8",
-      "status": "blocked_no_championship_coverage"
+      "status": "blocked",
+      "checked_at": "2026-09-10T15:08:56.623521+00:00",
+      "error": "ValueError: \n                        Invalid league 'ENG-Championship'. Valid leagues are:\n                        ['ENG-Premier League',\n 'ESP-La Liga',\n 'FRA-Ligue 1',\n 'GER-Bundesliga',\n 'ITA-Serie A']\n                        "
     },
     "clubelo": {
-      "url": "https://clubelo.com",
+      "url": "http://api.clubelo.com/{endyear}-06-30",
       "downloaded_at": null,
       "sha256": null,
       "license": "See source terms",
       "encoding": "UTF-8",
-      "status": "blocked"
+      "status": "blocked_http_502",
+      "error": "curl HTTP/1.1 502 Bad Gateway"
     }
   }
 }

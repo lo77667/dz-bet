@@ -1,9 +1,9 @@
-import hashlib
+from pathlib import Path
 import pandas as pd
 import pytest
 from dzbet.data_validation import (
     assert_unique_match_ids, assert_no_missing_closing_odds, assert_no_post_kickoff_odds,
-    xg_coverage, normalize_team_names, holdout_sha256,
+    xg_coverage, normalize_team_names,
 )
 from dzbet.temporal import validate_season_boundaries, split_seasons
 
@@ -45,8 +45,6 @@ def test_team_names_normalized():
 def test_no_duplicate_matches():
     with pytest.raises(ValueError, match="duplicate"):
         assert_unique_match_ids(pd.concat([matches(), matches().iloc[[0]]]))
-def test_holdout_file_untouched(tmp_path):
-    path = tmp_path / "holdout.parquet"
-    path.write_bytes(b"immutable-holdout-fixture")
-    before = holdout_sha256(path)
-    assert holdout_sha256(path) == before
+def test_holdout_file_untouched():
+    # Before real data is authorized, no schema-only hold-out may masquerade as evidence.
+    assert not Path("data/processed/holdout.parquet").exists()

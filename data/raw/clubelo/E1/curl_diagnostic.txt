@@ -1,0 +1,20 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host api.clubelo.com:80 was resolved.
+* IPv6: (none)
+* IPv4: 37.128.134.74
+*   Trying 37.128.134.74:80...
+* Connected to api.clubelo.com (37.128.134.74) port 80
+> GET /2020-06-30 HTTP/1.1
+> Host: api.clubelo.com
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0< HTTP/1.1 502 Bad Gateway
+< Server: Microsoft-IIS/10.0
+< X-Powered-By: ASP.NET
+< Date: Thu, 10 Sep 2026 15:08:10 GMT
+< Content-Length: 0
+< 
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+* Connection #0 to host api.clubelo.com left intact
