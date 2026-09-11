@@ -9,6 +9,8 @@ d["sources"].pop("openfootball_championship_corrected", None)
 d["sources"]["openfootball"]={}
 for season, item in d["sources"].get("football-data-uk", {}).items():
     item["url"] = f"https://www.football-data.co.uk/mmz4281/{season[2:4]}{season[-2:]}/E1.csv"
+for season, item in d["sources"].get("clubelo", {}).items():
+    item["url"] = f"http://api.clubelo.com/{int(season[:4]) + 1}-06-30"
 for season in d["seasons"]:
     path=ROOT/"data/raw/openfootball"/f"{season}-championship.json"
     h=hashlib.sha256(path.read_bytes()).hexdigest()
