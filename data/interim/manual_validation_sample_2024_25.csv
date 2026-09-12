@@ -1,0 +1,11 @@
+sample_id,Date,Time,HomeTeam,AwayTeam,FTHG,FTAG,FTR
+1,09/08/2024,20:00,Blackburn,Derby,4,2,H
+2,21/09/2024,12:30,Norwich,Watford,4,1,H
+3,22/10/2024,19:45,Oxford,Derby,1,1,D
+4,23/11/2024,15:00,Luton,Hull,1,0,H
+5,14/12/2024,15:00,Swansea,Sunderland,2,3,A
+6,05/01/2025,15:00,Sunderland,Portsmouth,1,0,H
+7,09/02/2025,12:00,Bristol City,Swansea,0,1,A
+8,08/03/2025,15:00,Swansea,Middlesbrough,1,0,H
+9,09/04/2025,19:45,Swansea,Plymouth,3,0,H
+10,03/05/2025,12:30,West Brom,Luton,5,3,H

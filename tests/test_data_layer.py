@@ -48,3 +48,21 @@ def test_no_duplicate_matches():
 def test_holdout_file_untouched():
     # Before real data is authorized, no schema-only hold-out may masquerade as evidence.
     assert not Path("data/processed/holdout.parquet").exists()
+
+
+def test_closing_columns_present():
+    for path in sorted(Path("data/raw/football-data-uk/E1").glob("*.csv")):
+        columns = set(pd.read_csv(path, encoding="latin-1", nrows=0).columns)
+        assert {"PSCH", "PSCD", "PSCA"}.issubset(columns) or {"B365CH", "B365CD", "B365CA"}.issubset(columns)
+
+
+def test_closing_odds_not_average():
+    odds_frame = pd.read_parquet("data/interim/odds.parquet")
+    assert set(odds_frame["bookmaker"].dropna()) <= {"Pinnacle", "Bet365"}
+    assert odds_frame["odds"].notna().all()
+
+
+def test_cross_validation_records_discrepancies():
+    discrepancies = pd.read_csv("data/interim/cross_validation_discrepancies.csv")
+    assert {"season", "match_id", "reason"}.issubset(discrepancies.columns)
+    assert discrepancies["reason"].notna().all()

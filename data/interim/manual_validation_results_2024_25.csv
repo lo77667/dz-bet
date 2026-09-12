@@ -1,0 +1,11 @@
+sample_id,date,match,football_data_result,openfootball_result,espn_result,espn_event_date,espn_url,agreement
+1,09/08/2024,Blackburn vs Derby,4-2,4-2,4-2,2024-08-09T19:00Z,https://www.espn.com/soccer/scoreboard/_/league/eng.2/date/20240809,AGREE
+2,21/09/2024,Norwich vs Watford,4-1,4-1,4-1,2024-09-21T11:30Z,https://www.espn.com/soccer/scoreboard/_/league/eng.2/date/20240921,AGREE
+3,22/10/2024,Oxford vs Derby,1-1,1-1,1-1,2024-10-22T18:45Z,https://www.espn.com/soccer/scoreboard/_/league/eng.2/date/20241022,AGREE
+4,23/11/2024,Luton vs Hull,1-0,1-0,1-0,2024-11-23T15:00Z,https://www.espn.com/soccer/scoreboard/_/league/eng.2/date/20241123,AGREE
+5,14/12/2024,Swansea vs Sunderland,2-3,2-3,2-3,2024-12-14T15:00Z,https://www.espn.com/soccer/scoreboard/_/league/eng.2/date/20241214,AGREE
+6,05/01/2025,Sunderland vs Portsmouth,1-0,1-0,1-0,2025-01-05T15:00Z,https://www.espn.com/soccer/scoreboard/_/league/eng.2/date/20250105,AGREE
+7,09/02/2025,Bristol City vs Swansea,0-1,0-1,0-1,2025-02-09T12:00Z,https://www.espn.com/soccer/scoreboard/_/league/eng.2/date/20250209,AGREE
+8,08/03/2025,Swansea vs Middlesbrough,1-0,1-0,1-0,2025-03-08T15:00Z,https://www.espn.com/soccer/scoreboard/_/league/eng.2/date/20250308,AGREE
+9,09/04/2025,Swansea vs Plymouth,3-0,3-0,3-0,2025-04-09T18:45Z,https://www.espn.com/soccer/scoreboard/_/league/eng.2/date/20250409,AGREE
+10,03/05/2025,West Brom vs Luton,5-3,5-3,5-3,2025-05-03T11:30Z,https://www.espn.com/soccer/scoreboard/_/league/eng.2/date/20250503,AGREE

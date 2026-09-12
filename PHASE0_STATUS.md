@@ -43,8 +43,8 @@
 Deliverables:
 - [x] Folder structure
 - [x] Download script
-- [ ] Cross-validation report — BLOCKED: نسبة المطابقة أقل من 99% في عدة مواسم
-- [x] Data tests — 22/22 ناجحة مع بناء matches/odds الفعلية
+- [x] Cross-validation report — الفروق مصنفة؛ team-pair agreement = 100%، مع عيب تواريخ OpenFootball موثق
+- [x] Data tests — 25/25 ناجحة مع closing columns الفعلية
 - [x] MANIFEST.json — موجود مع حالات المصدر وSHA256
 - [x] DATA_PROVENANCE.md — موثق مع المخاطر والتعارضات
 
@@ -52,6 +52,6 @@ Deliverables:
 
 في تحديث 0.3.b تم تصحيح FD codes إلى `1920`…`2526`، وإضافة ثلاث محاولات مع backoff وtimeout 60 ثانية، وتشغيل تشخيص curl، ومحاولة Understat فعليًا عبر soccerdata، وتجربة Club Elo عبر HTTP. تم نقل ملفات Premier League إلى `data/raw/openfootball/_rejected/`، والتحقق من اسم Championship ووجود 24 فريقًا في المواسم السبعة. أزيل ملف hold-out schema-only، وأصبح الاختبار يحمي غيابه حتى وصول البيانات الحقيقية.
 
-Next: مراجعة فروق المطابقة الزمنية وأسماء الفرق، ثم تثبيت cross-validation قبل Backtest (Phase 0.4).
+Next: تثبيت سياسة استخدام OpenFootball كتحقق ثانوي، وإغلاق قيد quote timestamp وتكاليف التنفيذ قبل Backtest (Phase 0.4).
 
 Decision: HOLD until all deliverables pass review.

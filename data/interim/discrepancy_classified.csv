@@ -1,0 +1,78 @@
+season,date,home_team,away_team,reason,date_delta_days
+2019-20,2020-07-01,Preston North End,Derby County,date_shift_or_postponement,366
+2019-20,2020-07-01,Birmingham City,Huddersfield Town,date_shift_or_postponement,366
+2019-20,2020-07-01,Nottingham Forest,Bristol City,date_shift_or_postponement,366
+2019-20,2020-07-01,Sheffield Wednesday,West Bromwich Albion,date_shift_or_postponement,366
+2019-20,2020-07-02,Hull City,Middlesbrough,date_shift_or_postponement,366
+2019-20,2020-07-03,Charlton Athletic,Millwall,date_shift_or_postponement,366
+2019-20,2020-07-04,Derby County,Nottingham Forest,date_shift_or_postponement,366
+2019-20,2020-07-04,Blackburn Rovers,Leeds United,date_shift_or_postponement,366
+2019-20,2020-07-04,Brentford,Wigan Athletic,date_shift_or_postponement,366
+2019-20,2020-07-04,Bristol City,Cardiff City,date_shift_or_postponement,366
+2019-20,2020-07-04,Fulham,Birmingham City,date_shift_or_postponement,366
+2019-20,2020-07-04,Huddersfield Town,Preston North End,date_shift_or_postponement,366
+2019-20,2020-07-04,Luton Town,Reading,date_shift_or_postponement,366
+2019-20,2020-07-04,Stoke City,Barnsley,date_shift_or_postponement,366
+2019-20,2020-07-05,Swansea City,Sheffield Wednesday,date_shift_or_postponement,366
+2019-20,2020-07-05,Middlesbrough,Queens Park Rangers,date_shift_or_postponement,366
+2019-20,2020-07-05,West Bromwich Albion,Hull City,date_shift_or_postponement,366
+2019-20,2020-07-07,Nottingham Forest,Fulham,date_shift_or_postponement,366
+2019-20,2020-07-07,Brentford,Charlton Athletic,date_shift_or_postponement,366
+2019-20,2020-07-07,Luton Town,Barnsley,date_shift_or_postponement,366
+2019-20,2020-07-07,Reading,Huddersfield Town,date_shift_or_postponement,366
+2019-20,2020-07-07,Cardiff City,Blackburn Rovers,date_shift_or_postponement,366
+2019-20,2020-07-08,Millwall,Middlesbrough,date_shift_or_postponement,366
+2019-20,2020-07-08,West Bromwich Albion,Derby County,date_shift_or_postponement,366
+2019-20,2020-07-08,Birmingham City,Swansea City,date_shift_or_postponement,366
+2019-20,2020-07-08,Bristol City,Hull City,date_shift_or_postponement,366
+2019-20,2020-07-08,Wigan Athletic,Queens Park Rangers,date_shift_or_postponement,366
+2019-20,2020-07-08,Sheffield Wednesday,Preston North End,date_shift_or_postponement,366
+2019-20,2020-07-09,Leeds United,Stoke City,date_shift_or_postponement,366
+2019-20,2020-07-10,Huddersfield Town,Luton Town,date_shift_or_postponement,366
+2019-20,2020-07-10,Fulham,Cardiff City,date_shift_or_postponement,366
+2019-20,2020-07-11,Charlton Athletic,Reading,date_shift_or_postponement,366
+2019-20,2020-07-11,Derby County,Brentford,date_shift_or_postponement,366
+2019-20,2020-07-11,Barnsley,Wigan Athletic,date_shift_or_postponement,366
+2019-20,2020-07-11,Blackburn Rovers,West Bromwich Albion,date_shift_or_postponement,366
+2019-20,2020-07-11,Hull City,Millwall,date_shift_or_postponement,366
+2019-20,2020-07-11,Middlesbrough,Bristol City,date_shift_or_postponement,366
+2019-20,2020-07-11,Preston North End,Nottingham Forest,date_shift_or_postponement,366
+2019-20,2020-07-11,Queens Park Rangers,Sheffield Wednesday,date_shift_or_postponement,366
+2019-20,2020-07-12,Stoke City,Birmingham City,date_shift_or_postponement,366
+2019-20,2020-07-12,Swansea City,Leeds United,date_shift_or_postponement,366
+2019-20,2020-07-14,West Bromwich Albion,Fulham,date_shift_or_postponement,366
+2019-20,2020-07-14,Reading,Middlesbrough,date_shift_or_postponement,366
+2019-20,2020-07-14,Wigan Athletic,Hull City,date_shift_or_postponement,366
+2019-20,2020-07-14,Cardiff City,Derby County,date_shift_or_postponement,366
+2019-20,2020-07-14,Luton Town,Queens Park Rangers,date_shift_or_postponement,366
+2019-20,2020-07-14,Millwall,Blackburn Rovers,date_shift_or_postponement,366
+2019-20,2020-07-14,Sheffield Wednesday,Huddersfield Town,date_shift_or_postponement,366
+2019-20,2020-07-15,Brentford,Preston North End,date_shift_or_postponement,366
+2019-20,2020-07-15,Bristol City,Stoke City,date_shift_or_postponement,366
+2019-20,2020-07-15,Birmingham City,Charlton Athletic,date_shift_or_postponement,366
+2019-20,2020-07-15,Nottingham Forest,Swansea City,date_shift_or_postponement,366
+2019-20,2020-07-16,Leeds United,Barnsley,date_shift_or_postponement,366
+2019-20,2020-07-17,Huddersfield Town,West Bromwich Albion,date_shift_or_postponement,366
+2019-20,2020-07-18,Charlton Athletic,Wigan Athletic,date_shift_or_postponement,366
+2019-20,2020-07-18,Stoke City,Brentford,date_shift_or_postponement,366
+2019-20,2020-07-18,Blackburn Rovers,Reading,date_shift_or_postponement,366
+2019-20,2020-07-18,Fulham,Sheffield Wednesday,date_shift_or_postponement,366
+2019-20,2020-07-18,Hull City,Luton Town,date_shift_or_postponement,366
+2019-20,2020-07-18,Middlesbrough,Cardiff City,date_shift_or_postponement,366
+2019-20,2020-07-18,Preston North End,Birmingham City,date_shift_or_postponement,366
+2019-20,2020-07-18,Queens Park Rangers,Millwall,date_shift_or_postponement,366
+2019-20,2020-07-18,Swansea City,Bristol City,date_shift_or_postponement,366
+2019-20,2020-07-19,Derby County,Leeds United,date_shift_or_postponement,366
+2019-20,2020-07-19,Barnsley,Nottingham Forest,date_shift_or_postponement,366
+2019-20,2020-07-22,Birmingham City,Derby County,date_shift_or_postponement,366
+2019-20,2020-07-22,Brentford,Barnsley,date_shift_or_postponement,366
+2019-20,2020-07-22,Bristol City,Preston North End,date_shift_or_postponement,366
+2019-20,2020-07-22,Cardiff City,Hull City,date_shift_or_postponement,366
+2019-20,2020-07-22,Leeds United,Charlton Athletic,date_shift_or_postponement,366
+2019-20,2020-07-22,Luton Town,Blackburn Rovers,date_shift_or_postponement,366
+2019-20,2020-07-22,Millwall,Huddersfield Town,date_shift_or_postponement,366
+2019-20,2020-07-22,Nottingham Forest,Stoke City,date_shift_or_postponement,366
+2019-20,2020-07-22,Reading,Swansea City,date_shift_or_postponement,366
+2019-20,2020-07-22,Sheffield Wednesday,Middlesbrough,date_shift_or_postponement,366
+2019-20,2020-07-22,West Bromwich Albion,Queens Park Rangers,date_shift_or_postponement,366
+2019-20,2020-07-22,Wigan Athletic,Fulham,date_shift_or_postponement,366

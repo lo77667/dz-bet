@@ -268,7 +268,7 @@
   "derived": {
     "matches_rows": 3864,
     "odds_rows": 11592,
-    "closing_odds_definition": "AvgCH/AvgCD/AvgCA from football-data.co.uk; quote timestamp is unavailable in the source and is therefore kept as NaT",
+    "closing_odds_definition": "PSCH/PSCD/PSCA (Pinnacle Closing), falling back to B365CH/B365CD/B365CA; quote timestamp is unavailable and is kept as NaT",
     "processed": {
       "train_rows": 2208,
       "test_rows": 1104,

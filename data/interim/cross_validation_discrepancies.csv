@@ -1,0 +1,180 @@
+season,match_id,date,home_team,away_team,fd_home_goals,fd_away_goals,fd_result,of_status,reason
+2019-20,2019-20|2020-07-01|Preston North End|Derby County,2020-07-01,Preston North End,Derby County,0.0,1.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-01|Birmingham City|Huddersfield Town,2020-07-01,Birmingham City,Huddersfield Town,0.0,3.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-01|Nottingham Forest|Bristol City,2020-07-01,Nottingham Forest,Bristol City,1.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-01|Sheffield Wednesday|West Bromwich Albion,2020-07-01,Sheffield Wednesday,West Bromwich Albion,0.0,3.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-02|Hull City|Middlesbrough,2020-07-02,Hull City,Middlesbrough,2.0,1.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-03|Charlton Athletic|Millwall,2020-07-03,Charlton Athletic,Millwall,0.0,1.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-04|Derby County|Nottingham Forest,2020-07-04,Derby County,Nottingham Forest,1.0,1.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-04|Blackburn Rovers|Leeds United,2020-07-04,Blackburn Rovers,Leeds United,1.0,3.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-04|Brentford|Wigan Athletic,2020-07-04,Brentford,Wigan Athletic,3.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-04|Bristol City|Cardiff City,2020-07-04,Bristol City,Cardiff City,0.0,1.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-04|Fulham|Birmingham City,2020-07-04,Fulham,Birmingham City,1.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-04|Huddersfield Town|Preston North End,2020-07-04,Huddersfield Town,Preston North End,0.0,0.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-04|Luton Town|Reading,2020-07-04,Luton Town,Reading,0.0,5.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-04|Stoke City|Barnsley,2020-07-04,Stoke City,Barnsley,4.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-05|Swansea City|Sheffield Wednesday,2020-07-05,Swansea City,Sheffield Wednesday,2.0,1.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-05|Middlesbrough|Queens Park Rangers,2020-07-05,Middlesbrough,Queens Park Rangers,0.0,1.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-05|West Bromwich Albion|Hull City,2020-07-05,West Bromwich Albion,Hull City,4.0,2.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-07|Nottingham Forest|Fulham,2020-07-07,Nottingham Forest,Fulham,0.0,1.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-07|Brentford|Charlton Athletic,2020-07-07,Brentford,Charlton Athletic,2.0,1.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-07|Luton Town|Barnsley,2020-07-07,Luton Town,Barnsley,1.0,1.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-07|Reading|Huddersfield Town,2020-07-07,Reading,Huddersfield Town,0.0,0.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-07|Cardiff City|Blackburn Rovers,2020-07-07,Cardiff City,Blackburn Rovers,2.0,3.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-08|Millwall|Middlesbrough,2020-07-08,Millwall,Middlesbrough,0.0,2.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-08|West Bromwich Albion|Derby County,2020-07-08,West Bromwich Albion,Derby County,2.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-08|Birmingham City|Swansea City,2020-07-08,Birmingham City,Swansea City,1.0,3.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-08|Bristol City|Hull City,2020-07-08,Bristol City,Hull City,2.0,1.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-08|Wigan Athletic|Queens Park Rangers,2020-07-08,Wigan Athletic,Queens Park Rangers,1.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-08|Sheffield Wednesday|Preston North End,2020-07-08,Sheffield Wednesday,Preston North End,1.0,3.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-09|Leeds United|Stoke City,2020-07-09,Leeds United,Stoke City,5.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-10|Huddersfield Town|Luton Town,2020-07-10,Huddersfield Town,Luton Town,0.0,2.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-10|Fulham|Cardiff City,2020-07-10,Fulham,Cardiff City,2.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-11|Charlton Athletic|Reading,2020-07-11,Charlton Athletic,Reading,0.0,1.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-11|Derby County|Brentford,2020-07-11,Derby County,Brentford,1.0,3.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-11|Barnsley|Wigan Athletic,2020-07-11,Barnsley,Wigan Athletic,0.0,0.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-11|Blackburn Rovers|West Bromwich Albion,2020-07-11,Blackburn Rovers,West Bromwich Albion,1.0,1.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-11|Hull City|Millwall,2020-07-11,Hull City,Millwall,0.0,1.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-11|Middlesbrough|Bristol City,2020-07-11,Middlesbrough,Bristol City,1.0,3.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-11|Preston North End|Nottingham Forest,2020-07-11,Preston North End,Nottingham Forest,1.0,1.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-11|Queens Park Rangers|Sheffield Wednesday,2020-07-11,Queens Park Rangers,Sheffield Wednesday,0.0,3.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-12|Stoke City|Birmingham City,2020-07-12,Stoke City,Birmingham City,2.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-12|Swansea City|Leeds United,2020-07-12,Swansea City,Leeds United,0.0,1.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-14|West Bromwich Albion|Fulham,2020-07-14,West Bromwich Albion,Fulham,0.0,0.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-14|Reading|Middlesbrough,2020-07-14,Reading,Middlesbrough,1.0,2.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-14|Wigan Athletic|Hull City,2020-07-14,Wigan Athletic,Hull City,8.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-14|Cardiff City|Derby County,2020-07-14,Cardiff City,Derby County,2.0,1.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-14|Luton Town|Queens Park Rangers,2020-07-14,Luton Town,Queens Park Rangers,1.0,1.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-14|Millwall|Blackburn Rovers,2020-07-14,Millwall,Blackburn Rovers,1.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-14|Sheffield Wednesday|Huddersfield Town,2020-07-14,Sheffield Wednesday,Huddersfield Town,0.0,0.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-15|Brentford|Preston North End,2020-07-15,Brentford,Preston North End,1.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-15|Bristol City|Stoke City,2020-07-15,Bristol City,Stoke City,1.0,1.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-15|Birmingham City|Charlton Athletic,2020-07-15,Birmingham City,Charlton Athletic,1.0,1.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-15|Nottingham Forest|Swansea City,2020-07-15,Nottingham Forest,Swansea City,2.0,2.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-16|Leeds United|Barnsley,2020-07-16,Leeds United,Barnsley,1.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-17|Huddersfield Town|West Bromwich Albion,2020-07-17,Huddersfield Town,West Bromwich Albion,2.0,1.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-18|Charlton Athletic|Wigan Athletic,2020-07-18,Charlton Athletic,Wigan Athletic,2.0,2.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-18|Stoke City|Brentford,2020-07-18,Stoke City,Brentford,1.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-18|Blackburn Rovers|Reading,2020-07-18,Blackburn Rovers,Reading,4.0,3.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-18|Fulham|Sheffield Wednesday,2020-07-18,Fulham,Sheffield Wednesday,5.0,3.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-18|Hull City|Luton Town,2020-07-18,Hull City,Luton Town,0.0,1.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-18|Middlesbrough|Cardiff City,2020-07-18,Middlesbrough,Cardiff City,1.0,3.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-18|Preston North End|Birmingham City,2020-07-18,Preston North End,Birmingham City,2.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-18|Queens Park Rangers|Millwall,2020-07-18,Queens Park Rangers,Millwall,4.0,3.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-18|Swansea City|Bristol City,2020-07-18,Swansea City,Bristol City,1.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-19|Derby County|Leeds United,2020-07-19,Derby County,Leeds United,1.0,3.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-19|Barnsley|Nottingham Forest,2020-07-19,Barnsley,Nottingham Forest,1.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-22|Birmingham City|Derby County,2020-07-22,Birmingham City,Derby County,1.0,3.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-22|Brentford|Barnsley,2020-07-22,Brentford,Barnsley,1.0,2.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-22|Bristol City|Preston North End,2020-07-22,Bristol City,Preston North End,1.0,1.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-22|Cardiff City|Hull City,2020-07-22,Cardiff City,Hull City,3.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-22|Leeds United|Charlton Athletic,2020-07-22,Leeds United,Charlton Athletic,4.0,0.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-22|Luton Town|Blackburn Rovers,2020-07-22,Luton Town,Blackburn Rovers,3.0,2.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-22|Millwall|Huddersfield Town,2020-07-22,Millwall,Huddersfield Town,4.0,1.0,H,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-22|Nottingham Forest|Stoke City,2020-07-22,Nottingham Forest,Stoke City,1.0,4.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-22|Reading|Swansea City,2020-07-22,Reading,Swansea City,1.0,4.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-22|Sheffield Wednesday|Middlesbrough,2020-07-22,Sheffield Wednesday,Middlesbrough,1.0,2.0,A,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-22|West Bromwich Albion|Queens Park Rangers,2020-07-22,West Bromwich Albion,Queens Park Rangers,2.0,2.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2020-07-22|Wigan Athletic|Fulham,2020-07-22,Wigan Athletic,Fulham,1.0,1.0,D,missing,not found by exact date/team key
+2019-20,2019-20|2019-07-01|Birmingham City|Huddersfield Town,2019-07-01,Birmingham City,Huddersfield Town,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-01|Nottingham Forest|Bristol City,2019-07-01,Nottingham Forest,Bristol City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-01|Sheffield Wednesday|West Bromwich Albion,2019-07-01,Sheffield Wednesday,West Bromwich Albion,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-01|Preston North End|Derby County,2019-07-01,Preston North End,Derby County,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-02|Hull City|Middlesbrough,2019-07-02,Hull City,Middlesbrough,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-03|Charlton Athletic|Millwall,2019-07-03,Charlton Athletic,Millwall,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-04|Derby County|Nottingham Forest,2019-07-04,Derby County,Nottingham Forest,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-04|Blackburn Rovers|Leeds United,2019-07-04,Blackburn Rovers,Leeds United,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-04|Brentford|Wigan Athletic,2019-07-04,Brentford,Wigan Athletic,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-04|Bristol City|Cardiff City,2019-07-04,Bristol City,Cardiff City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-04|Fulham|Birmingham City,2019-07-04,Fulham,Birmingham City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-04|Huddersfield Town|Preston North End,2019-07-04,Huddersfield Town,Preston North End,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-04|Luton Town|Reading,2019-07-04,Luton Town,Reading,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-04|Stoke City|Barnsley,2019-07-04,Stoke City,Barnsley,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-05|Middlesbrough|Queens Park Rangers,2019-07-05,Middlesbrough,Queens Park Rangers,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-05|West Bromwich Albion|Hull City,2019-07-05,West Bromwich Albion,Hull City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-05|Swansea City|Sheffield Wednesday,2019-07-05,Swansea City,Sheffield Wednesday,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-07|Brentford|Charlton Athletic,2019-07-07,Brentford,Charlton Athletic,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-07|Luton Town|Barnsley,2019-07-07,Luton Town,Barnsley,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-07|Reading|Huddersfield Town,2019-07-07,Reading,Huddersfield Town,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-07|Cardiff City|Blackburn Rovers,2019-07-07,Cardiff City,Blackburn Rovers,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-07|Nottingham Forest|Fulham,2019-07-07,Nottingham Forest,Fulham,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-08|Millwall|Middlesbrough,2019-07-08,Millwall,Middlesbrough,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-08|West Bromwich Albion|Derby County,2019-07-08,West Bromwich Albion,Derby County,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-08|Birmingham City|Swansea City,2019-07-08,Birmingham City,Swansea City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-08|Bristol City|Hull City,2019-07-08,Bristol City,Hull City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-08|Wigan Athletic|Queens Park Rangers,2019-07-08,Wigan Athletic,Queens Park Rangers,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-08|Sheffield Wednesday|Preston North End,2019-07-08,Sheffield Wednesday,Preston North End,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-09|Leeds United|Stoke City,2019-07-09,Leeds United,Stoke City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-10|Fulham|Cardiff City,2019-07-10,Fulham,Cardiff City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-10|Huddersfield Town|Luton Town,2019-07-10,Huddersfield Town,Luton Town,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-11|Charlton Athletic|Reading,2019-07-11,Charlton Athletic,Reading,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-11|Derby County|Brentford,2019-07-11,Derby County,Brentford,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-11|Barnsley|Wigan Athletic,2019-07-11,Barnsley,Wigan Athletic,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-11|Blackburn Rovers|West Bromwich Albion,2019-07-11,Blackburn Rovers,West Bromwich Albion,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-11|Hull City|Millwall,2019-07-11,Hull City,Millwall,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-11|Middlesbrough|Bristol City,2019-07-11,Middlesbrough,Bristol City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-11|Preston North End|Nottingham Forest,2019-07-11,Preston North End,Nottingham Forest,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-11|Queens Park Rangers|Sheffield Wednesday,2019-07-11,Queens Park Rangers,Sheffield Wednesday,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-12|Swansea City|Leeds United,2019-07-12,Swansea City,Leeds United,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-12|Stoke City|Birmingham City,2019-07-12,Stoke City,Birmingham City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-14|West Bromwich Albion|Fulham,2019-07-14,West Bromwich Albion,Fulham,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-14|Reading|Middlesbrough,2019-07-14,Reading,Middlesbrough,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-14|Wigan Athletic|Hull City,2019-07-14,Wigan Athletic,Hull City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-14|Cardiff City|Derby County,2019-07-14,Cardiff City,Derby County,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-14|Luton Town|Queens Park Rangers,2019-07-14,Luton Town,Queens Park Rangers,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-14|Millwall|Blackburn Rovers,2019-07-14,Millwall,Blackburn Rovers,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-14|Sheffield Wednesday|Huddersfield Town,2019-07-14,Sheffield Wednesday,Huddersfield Town,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-15|Bristol City|Stoke City,2019-07-15,Bristol City,Stoke City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-15|Birmingham City|Charlton Athletic,2019-07-15,Birmingham City,Charlton Athletic,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-15|Nottingham Forest|Swansea City,2019-07-15,Nottingham Forest,Swansea City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-15|Brentford|Preston North End,2019-07-15,Brentford,Preston North End,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-16|Leeds United|Barnsley,2019-07-16,Leeds United,Barnsley,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-17|Huddersfield Town|West Bromwich Albion,2019-07-17,Huddersfield Town,West Bromwich Albion,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-18|Charlton Athletic|Wigan Athletic,2019-07-18,Charlton Athletic,Wigan Athletic,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-18|Stoke City|Brentford,2019-07-18,Stoke City,Brentford,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-18|Blackburn Rovers|Reading,2019-07-18,Blackburn Rovers,Reading,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-18|Fulham|Sheffield Wednesday,2019-07-18,Fulham,Sheffield Wednesday,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-18|Hull City|Luton Town,2019-07-18,Hull City,Luton Town,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-18|Middlesbrough|Cardiff City,2019-07-18,Middlesbrough,Cardiff City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-18|Preston North End|Birmingham City,2019-07-18,Preston North End,Birmingham City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-18|Queens Park Rangers|Millwall,2019-07-18,Queens Park Rangers,Millwall,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-18|Swansea City|Bristol City,2019-07-18,Swansea City,Bristol City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-19|Barnsley|Nottingham Forest,2019-07-19,Barnsley,Nottingham Forest,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-19|Derby County|Leeds United,2019-07-19,Derby County,Leeds United,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-22|Birmingham City|Derby County,2019-07-22,Birmingham City,Derby County,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-22|Brentford|Barnsley,2019-07-22,Brentford,Barnsley,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-22|Bristol City|Preston North End,2019-07-22,Bristol City,Preston North End,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-22|Cardiff City|Hull City,2019-07-22,Cardiff City,Hull City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-22|Leeds United|Charlton Athletic,2019-07-22,Leeds United,Charlton Athletic,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-22|Luton Town|Blackburn Rovers,2019-07-22,Luton Town,Blackburn Rovers,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-22|Millwall|Huddersfield Town,2019-07-22,Millwall,Huddersfield Town,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-22|Nottingham Forest|Stoke City,2019-07-22,Nottingham Forest,Stoke City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-22|Reading|Swansea City,2019-07-22,Reading,Swansea City,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-22|Sheffield Wednesday|Middlesbrough,2019-07-22,Sheffield Wednesday,Middlesbrough,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-22|West Bromwich Albion|Queens Park Rangers,2019-07-22,West Bromwich Albion,Queens Park Rangers,,,,openfootball_only,not found by exact date/team key
+2019-20,2019-20|2019-07-22|Wigan Athletic|Fulham,2019-07-22,Wigan Athletic,Fulham,,,,openfootball_only,not found by exact date/team key
+2021-22,2021-22|2022-05-13|Luton Town|Huddersfield Town,2022-05-13,Luton Town,Huddersfield Town,,,,openfootball_only,not found by exact date/team key
+2021-22,2021-22|2022-05-14|Sheffield United|Nottingham Forest,2022-05-14,Sheffield United,Nottingham Forest,,,,openfootball_only,not found by exact date/team key
+2021-22,2021-22|2022-05-16|Huddersfield Town|Luton Town,2022-05-16,Huddersfield Town,Luton Town,,,,openfootball_only,not found by exact date/team key
+2021-22,2021-22|2022-05-17|Nottingham Forest|Sheffield United,2022-05-17,Nottingham Forest,Sheffield United,,,,openfootball_only,not found by exact date/team key
+2021-22,2021-22|2022-05-29|Huddersfield Town|Nottingham Forest,2022-05-29,Huddersfield Town,Nottingham Forest,,,,openfootball_only,not found by exact date/team key
+2022-23,2022-23|2023-05-13|Sunderland|Luton Town,2023-05-13,Sunderland,Luton Town,,,,openfootball_only,not found by exact date/team key
+2022-23,2022-23|2023-05-14|Coventry City|Middlesbrough,2023-05-14,Coventry City,Middlesbrough,,,,openfootball_only,not found by exact date/team key
+2022-23,2022-23|2023-05-16|Luton Town|Sunderland,2023-05-16,Luton Town,Sunderland,,,,openfootball_only,not found by exact date/team key
+2022-23,2022-23|2023-05-17|Middlesbrough|Coventry City,2023-05-17,Middlesbrough,Coventry City,,,,openfootball_only,not found by exact date/team key
+2022-23,2022-23|2023-05-27|Coventry City|Luton Town,2023-05-27,Coventry City,Luton Town,,,,openfootball_only,not found by exact date/team key
+2023-24,2023-24|2024-05-12|Norwich City|Leeds United,2024-05-12,Norwich City,Leeds United,,,,openfootball_only,not found by exact date/team key
+2023-24,2023-24|2024-05-12|West Bromwich Albion|Southampton,2024-05-12,West Bromwich Albion,Southampton,,,,openfootball_only,not found by exact date/team key
+2023-24,2023-24|2024-05-16|Leeds United|Norwich City,2024-05-16,Leeds United,Norwich City,,,,openfootball_only,not found by exact date/team key
+2023-24,2023-24|2024-05-17|Southampton|West Bromwich Albion,2024-05-17,Southampton,West Bromwich Albion,,,,openfootball_only,not found by exact date/team key
+2023-24,2023-24|2024-05-26|Leeds United|Southampton,2024-05-26,Leeds United,Southampton,,,,openfootball_only,not found by exact date/team key
+2024-25,2024-25|2025-05-08|Bristol City|Sheffield United,2025-05-08,Bristol City,Sheffield United,,,,openfootball_only,not found by exact date/team key
+2024-25,2024-25|2025-05-09|Coventry City|Sunderland,2025-05-09,Coventry City,Sunderland,,,,openfootball_only,not found by exact date/team key
+2024-25,2024-25|2025-05-12|Sheffield United|Bristol City,2025-05-12,Sheffield United,Bristol City,,,,openfootball_only,not found by exact date/team key
+2024-25,2024-25|2025-05-13|Sunderland|Coventry City,2025-05-13,Sunderland,Coventry City,,,,openfootball_only,not found by exact date/team key
+2024-25,2024-25|2025-05-24|Sheffield United|Sunderland,2025-05-24,Sheffield United,Sunderland,,,,openfootball_only,not found by exact date/team key
+2025-26,2025-26|2026-05-08|Hull City|Millwall,2026-05-08,Hull City,Millwall,,,,openfootball_only,not found by exact date/team key
+2025-26,2025-26|2026-05-09|Middlesbrough|Southampton,2026-05-09,Middlesbrough,Southampton,,,,openfootball_only,not found by exact date/team key
+2025-26,2025-26|2026-05-11|Millwall|Hull City,2026-05-11,Millwall,Hull City,,,,openfootball_only,not found by exact date/team key
+2025-26,2025-26|2026-05-12|Southampton|Middlesbrough,2026-05-12,Southampton,Middlesbrough,,,,openfootball_only,not found by exact date/team key
+2025-26,2025-26|2026-05-23|Hull City|Middlesbrough,2026-05-23,Hull City,Middlesbrough,,,,openfootball_only,not found by exact date/team key

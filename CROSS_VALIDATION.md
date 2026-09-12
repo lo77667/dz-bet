@@ -1,22 +1,22 @@
-# Cross-validation report — Phase 0.3.c
+# Cross-validation report — Phase 0.3.d
 
 ## Primary-source status
 
-`football-data.co.uk` was downloaded successfully using `requests` with redirect following. Seven E1 files are present. OpenFootball contains no odds fields and is used only for result cross-checking. The primary CSV contains closing-price columns (`AvgCH`, `AvgCD`, `AvgCA`), but no quote timestamp; the derived odds table therefore keeps `timestamp = NaT` and cannot yet prove the strict `timestamp < kickoff` rule.
+`football-data.co.uk` was downloaded successfully using `requests` with redirect following. Seven E1 files are present. OpenFootball contains no odds fields and is used only for result cross-checking.
 
 ## Match comparison
 
-| Season | football-data | OpenFootball | Matched | FD only | OpenFootball only | Match rate |
-|---|---:|---:|---:|---:|---:|---:|
-| 2019-20 | 552 | 552 | 436 | 116 | 116 | 78.99% |
-| 2020-21 | 552 | 552 | 420 | 132 | 132 | 76.09% |
-| 2021-22 | 552 | 557 | 462 | 90 | 95 | 83.70% |
-| 2022-23 | 552 | 557 | 552 | 0 | 5 | 100.00% |
-| 2023-24 | 552 | 557 | 462 | 90 | 95 | 83.70% |
-| 2024-25 | 552 | 557 | 506 | 46 | 51 | 91.67% |
-| 2025-26 | 552 | 557 | 462 | 90 | 95 | 83.70% |
+| Season | football-data | OpenFootball | Exact date/team | Team-pair matched | FD only | OpenFootball only | Exact rate | Pair rate |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2019-20 | 552 | 552 | 475 | 552 | 77 | 77 | 86.05% | 100.00% |
+| 2020-21 | 552 | 552 | 552 | 552 | 0 | 0 | 100.00% | 100.00% |
+| 2021-22 | 552 | 557 | 552 | 552 | 0 | 5 | 100.00% | 100.00% |
+| 2022-23 | 552 | 557 | 552 | 552 | 0 | 5 | 100.00% | 100.00% |
+| 2023-24 | 552 | 557 | 552 | 552 | 0 | 5 | 100.00% | 100.00% |
+| 2024-25 | 552 | 557 | 552 | 552 | 0 | 5 | 100.00% | 100.00% |
+| 2025-26 | 552 | 557 | 552 | 552 | 0 | 5 | 100.00% | 100.00% |
 
-The comparison uses season, date, normalized home team, and normalized away team. Any rate below 99% remains a HOLD condition and is not silently treated as agreement.
+The exact comparison uses season, date, normalized home team, and normalized away team. The team-pair comparison ignores date only to diagnose scheduling errors; it does not overwrite football-data dates. The 2019-20 OpenFootball file contains 77 matches dated one year earlier than football-data; these are classified as a source date defect.
 
 ## Conflicts and resolution
 
@@ -24,9 +24,10 @@ The comparison uses season, date, normalized home team, and normalized away team
 |---|---|---|---|
 | Competition identity | OpenFootball `en.1.json` = Premier League | Target E1 Championship | Rejected `en.1`; retained verified `en.2` only |
 | Encoding | football-data Latin-1 | OpenFootball UTF-8 | Read source encodings explicitly; normalize internal strings |
-| Team aliases | football-data abbreviations | OpenFootball full names | Alias map in `build_phase03_data.py`; unresolved names remain visible in counts |
-| Odds | football-data has closing columns but no quote timestamp | OpenFootball has no odds | Keep prices, keep timestamp unknown, and block strict pre-kickoff validation |
+| Team aliases | football-data abbreviations | OpenFootball full names | Added aliases for Sheffield Weds, Bournemouth, Leicester, Peterboro, and Wycombe |
+| Date defect | OpenFootball 2019-20 dates shifted by 366 days for 77 pairs | football-data dates | Record as discrepancy; do not alter primary dates |
+| Odds | football-data has PSCH/PSCD/PSCA, with B365 closing fallback | OpenFootball has no odds | Use official closing columns; preserve timestamp as unknown |
 
 ## Decision
 
-`HOLD` until every match has valid closing odds and the cross-source match rate is at least 99%. Understat remains unavailable for E1 and Club Elo returned HTTP 502.
+`HOLD` remains in force after manual verification and closing-column tests pass. Pair-level agreement is 100% after aliases/date diagnosis, but exact date agreement remains lower because of the OpenFootball defect. Quote timestamps are unavailable, so strict pre-kickoff timestamp validation remains unresolved. Understat remains unavailable for E1 and Club Elo returned HTTP 502.
